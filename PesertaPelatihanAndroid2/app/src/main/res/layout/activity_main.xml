@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:background="@color/bg_header">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Peserta Pelatihan Android"
+            android:id="@+id/textView"
+            android:textColor="@color/text_header"
+            android:textSize="20sp"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginLeft="16dp" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView" />
+</LinearLayout>

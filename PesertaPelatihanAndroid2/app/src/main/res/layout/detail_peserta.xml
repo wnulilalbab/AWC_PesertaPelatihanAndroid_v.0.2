@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollView">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_header"
+        android:paddingTop="44dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/foto1"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/user1" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Wahyu Nur Ulil Albab"
+            android:id="@+id/nama"
+            android:textSize="20sp"
+            android:textColor="@color/text_header"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:paddingLeft="4dp"
+            android:paddingTop="4dp"
+            android:paddingRight="4dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="2011"
+            android:id="@+id/angkatan"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textSize="16dp"
+            android:layout_marginBottom="12dp"
+            android:textColor="@color/sub_text_detail" />
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/btn_email"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_list_detail_pressed">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_email"
+                android:layout_margin="16dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Medium Text"
+                android:id="@+id/email"
+                android:textSize="14dp"
+                android:gravity="center_vertical|left"
+                android:textColor="@color/list_text_detail" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_bbm"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_list_1">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_bbm"
+                android:layout_margin="16dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Medium Text"
+                android:id="@+id/bbm"
+                android:textSize="14dp"
+                android:gravity="center_vertical|left"
+                android:textColor="@color/list_text_detail" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_facebook"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_list_2">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_facebook"
+                android:layout_margin="16dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Medium Text"
+                android:id="@+id/facebook"
+                android:textSize="14dp"
+                android:gravity="center_vertical|left"
+                android:textColor="@color/list_text_detail" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_twitter"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_list_1">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_twitter"
+                android:layout_margin="16dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Medium Text"
+                android:id="@+id/twitter"
+                android:textSize="14dp"
+                android:gravity="center_vertical|left"
+                android:textColor="@color/list_text_detail" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/btn_instagram"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_list_2">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_instagram"
+                android:layout_margin="16dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Medium Text"
+                android:id="@+id/instagram"
+                android:textSize="14dp"
+                android:gravity="center_vertical|left"
+                android:textColor="@color/list_text_detail" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_path"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_list_1">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_path"
+                android:layout_margin="16dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Medium Text"
+                android:id="@+id/path"
+                android:textSize="14dp"
+                android:gravity="center_vertical|left"
+                android:textColor="@color/list_text_detail" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_whatsapp"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_list_2">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_whatsapp"
+                android:layout_margin="16dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Medium Text"
+                android:id="@+id/whatsapp"
+                android:textSize="14dp"
+                android:gravity="center_vertical|left"
+                android:textColor="@color/list_text_detail" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_line"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_list_1">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_line"
+                android:layout_margin="16dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Medium Text"
+                android:id="@+id/line"
+                android:textSize="14dp"
+                android:gravity="center_vertical|left"
+                android:textColor="@color/list_text_detail" />
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
